@@ -163,8 +163,8 @@ class ReliefInterpolationApp:
         btn_frame.pack(fill=tk.X, pady=5)
         self.btn_save_2d = ttk.Button(btn_frame, text="💾 Сохранить 2D", command=self.save_2d)
         self.btn_save_2d.pack(side=tk.LEFT, padx=2, expand=True, fill=tk.X)
-        self.btn_save_3d = ttk.Button(btn_frame, text="📊 Сохранить 3D", command=self.save_3d)
-        self.btn_save_3d.pack(side=tk.LEFT, padx=2, expand=True, fill=tk.X)
+        #self.btn_save_3d = ttk.Button(btn_frame, text="📊 Сохранить 3D", command=self.save_3d)
+        #self.btn_save_3d.pack(side=tk.LEFT, padx=2, expand=True, fill=tk.X)
         self.btn_export = ttk.Button(left_panel, text="📁 Экспорт SVG", command=self.export_vector)
         self.btn_export.pack(fill=tk.X, pady=3)
         
